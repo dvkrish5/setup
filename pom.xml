@@ -25,8 +25,8 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-   <repositories>
-  <repository>
+  <repositories>
+   <repository>
        <id>maven-group</id>
         <url>http://localhost:8081/repository/rueee/</url>
 	    <releases><enabled>true</enabled></releases>
@@ -154,7 +154,7 @@
                 <goal>deploy-file</goal>
             </goals>
             <configuration>
-                <file>sad-1.1.jar</file>
+                <file>sad-1.2-SNAPSHOT.jar</file>
                 <url>http://localhost:8081/repository/maven-releases/</url>
                 <repositoryId>maven-release</repositoryId>
                 <packaging>zip</packaging>
