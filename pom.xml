@@ -84,20 +84,7 @@
           <artifactId>maven-javadoc-plugin</artifactId>
           <version>3.2.0</version>
      </plugin>
-	<plugin>
-      <groupId>org.apache.maven.plugins</groupId>
-      <artifactId>maven-release-plugin</artifactId>
-      <version>2.2.2</version>
-	</plugin>
-       <plugin>
-               <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                 <version>3.5.1</version>
-             <configuration>
-                <source>1.7</source>
-                <target>1.7</target>
-          </configuration>
-        </plugin>
+      
 		<plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
@@ -107,7 +94,7 @@
                 <target>1.7</target>
             </configuration>
         </plugin>
-  <plugin>
+     <plugin>
            <groupId>org.apache.maven.plugins</groupId>
            <artifactId>maven-compiler-plugin</artifactId>
            <version>3.8.1</version>
@@ -118,11 +105,6 @@
            <debuglevel>lines,vars,source</debuglevel> 
       </configuration>
   </plugin> 
-	<plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-javadoc-plugin</artifactId>
-           <version>3.2.0</version>
-      </plugin>
         <plugin>
           <artifactId>maven-install-plugin</artifactId>
           <version>2.5.2</version>
@@ -134,14 +116,7 @@
             <trimStackTrace>false</trimStackTrace>
         </configuration>
     </plugin>
-	 <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-javadoc-plugin</artifactId>
-		<configuration>
-		      <minmemory>128m</minmemory>
-              <maxmemory>1g</maxmemory>
-		</configuration>
-      </plugin>
+	 
 	  <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-deploy-plugin</artifactId>
