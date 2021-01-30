@@ -135,8 +135,8 @@
               <maxmemory>1g</maxmemory>
 		</configuration>
       </plugin>
- <plugin>
- <plugin>
+  <plugin>
+  <plugin>
      <groupId>org.apache.maven.plugins</groupId>
      <artifactId>maven-release-plugin</artifactId>
      <version>3.0.0-M1</version>
