@@ -5,7 +5,7 @@
 
   <groupId>happy1</groupId>
   <artifactId>sad</artifactId>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.2-SNAPSHOT</version>
 
   <name>sad</name>
   <!-- FIXME change it to the project's website -->
@@ -154,7 +154,7 @@
                 <goal>deploy-file</goal>
             </goals>
             <configuration>
-                <file>sad-1.1-SNAPSHOT.jar</file>
+                <file>sad-1.1.jar</file>
                 <url>http://localhost:8081/repository/maven-releases/</url>
                 <repositoryId>maven-release</repositoryId>
                 <packaging>zip</packaging>
